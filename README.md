@@ -9,14 +9,14 @@ Run BlockControl.java from the command line.
  * and counts collisions.
  * The collisions are perfectly elastic – both momentum and kinetic energy are conserved.
  * (The equations for such collisions are sourced from https://en.wikipedia.org/wiki/Elastic_collision#One-dimensional_Newtonian)
- * There are two blocks as well as a wall on the left, which is assumed to have infinite mass and position=0.0.
+ * There are two blocks as well as a wall on the left, which is defined to have infinite mass and position=0.0.
  * LeftBlock begins stationary, while RightBlock begins moving toward LeftBlock.
  *
  * MAIN PURPOSE:
  * This class counts how many collisions will occur between the two blocks and between LeftBlock and the wall.
  * 
  * COOL NOTE AND MAIN INCENTIVE TO IMPLEMENT:
- * If RightBlock's mass is a multiple of 100*d for some natural number d and LeftBlock's mass, 
+ * If RightBlock's mass is a multiple of LeftBlock's mass and 100*d for some natural number d, 
  * the number of collisions will be the first d+1 digits of π.
  * For example, if LeftBlock.mass()==1 and RightBlock.mass()==100, collisionCount will equal 31, or the first 2 digits of π.
  *
