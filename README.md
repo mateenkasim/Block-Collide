@@ -15,7 +15,7 @@ LeftBlock begins stationary, while RightBlock begins moving toward LeftBlock.
 This class counts how many collisions will occur between the two blocks and between LeftBlock and the wall.
 
 ### COOL NOTE AND MAIN INCENTIVE TO IMPLEMENT:
-If RightBlock's mass is a multiple of LeftBlock's mass and 100*d for some natural number d, 
+If RightBlock's mass is a multiple of LeftBlock's mass and 100<sup>d</sup> for some natural number d, 
 the number of collisions will be the first d+1 digits of π.
 For example, if LeftBlock.mass()==1 and RightBlock.mass()==100, collisionCount will equal 31, or the first 2 digits of π.
 
